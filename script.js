@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const carData = {
         1: {
             name: "Toyota Quantum 2016",
-            price: "R270,000",
+            price: "R220,000",
             engine: "2494 cc",
             mileage: "250,363 km",
             transmission: "Manual",
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         2: {
             name: "Ford Ranger Wildtrak 2016",
-            price: "R170,000",
+            price: "R190,000",
             engine: "3200 cc",
             mileage: "52,432 km",
             transmission: "Manual",
@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
             color: "Orange"
         }, 
         3: {
-            name: "VW Polo TSI 2013",
-            price: "R62,240",
+            name: "VW Polo TSI 2017",
+            price: "R85 000",
             engine: "1200 cc",
             mileage: "94,432 km",
             transmission: "Manual",
@@ -64,8 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
             color: "Red"
         },
         4: {
-            name: "VW Polo TSI 2016",
-            price: "R112,000",
+            name: "VW Polo TSI 2019",
+            price: "R115 000",
             engine: "1200 cc",
             mileage: "20 000 km",
             transmission: "Manual",
@@ -75,14 +75,116 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         5: {
             name: "Ford Ranger Wildtrack 2018",
-            price: "R140,000",
+            price: "R200,000",
             engine: "3200 cc",
             mileage: "21 000 km",
             transmission: "Manual",
             fuel: "Diesel",
             bodyType: "Double Cab Pickup",
             color: "white"
+        }, 
+        6:{
+            name: "Suzuki swift 2023",
+            price: "R70 000",
+            engine: "1.2 L",
+            mileage: "53 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
+        }, 
+        7:{
+            name: "Toyota Avanza 2018",
+            price: "R90 000",
+            engine: "1.3 L",
+            mileage: "60 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "Gray" 
+        },
+        8:{
+            name: "Toyota Rumion 2023",
+            price: "R150 000",
+            engine: "1.5 L",
+            mileage: "47 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
+        }, 
+        9:{
+
+            name: "Polo vivo 2021",
+            price: "R90 000",
+            engine: "1.4 L",
+            mileage: "80 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
+        },
+        10: {
+            name: "Hyundia i30 2019",
+            price: "R88 000",
+            engine: "1.6 L",
+            mileage: "53 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
+        },
+        11: {
+            name: "Hyundia i30",
+            price: "R62 000",
+            engine: "1.6 L",
+            mileage: "53 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
+        },
+        12: {
+            name: "Suzuki Vitara 2022",
+            price: "R96 000",
+            engine: "1.6 L",
+            mileage: "75 000 km",
+            transmission: "Manual ",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
+        },
+        13: {
+            name: "Toyota Hilux SR5 2018",
+            price: "R210 000",
+            engine: "2.8 L",
+            mileage: "53 000 km",
+            transmission: "Automatic",
+            fuel: "Diesel",
+            bodyType: "double cab ",
+            color: "white" 
+        },
+        14: {
+            name: "Toyota corolla 2015",
+            price: "R60 000",
+            engine: "1.6 L",
+            mileage: "69 000 km",
+            transmission: "Manual",
+            fuel: "Petrol",
+            bodyType: " ", 
+            color: "white" 
+        },
+        15: {
+            name: "Mercedes Benz c200 2019",
+            price: "R230 000",
+            engine: "C200 AMG",
+            mileage: "72 000 km",
+            transmission: "Automatic",
+            fuel: "Petrol",
+            bodyType: " ",
+            color: "white" 
         }
+
         
         // Add data for the other 5 cars
     };
